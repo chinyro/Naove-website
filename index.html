@@ -9,8 +9,10 @@
     <link rel="shortcut icon" href="images/favicon.ico" />
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <!-- Add icons css package later -->
+    <!-- CSS Icons -->
     <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css" />
+    <!-- styles add later -->
 </head>
 <body>
     <!-- Start Navbar -->
@@ -60,34 +62,22 @@
     <!-- End of Navbar -->
 
     <!-- Start Home -->
-    <section class="section bg-home vh-100" id="home">
+    <section class="section bg-home home-half" id="home">
         <div class="bg-overlay"></div>
-        <div class="">
-            <div class="">
-                <div class="container slidero">
+        <div class="display-table">
+            <div class="home-cell-bottom">
+                <div class="container">
                     <div class="row justify-content-center">
-                        <h1 class="home-title">We help to grow your business</h1>
-                        <p class="pt-3 home-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt natus explicabo quos magnam doloribus temporibus dolorem in sit numquam obcaecati pariatur modi ducimus est vero, cumque expedita. Quam, ipsam ipsum.</p>
-                        <p clasS="play-shadow mt-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            <a href="javascript: void(0);" class="play-btn video-play-icon">
-                                <i class="mdi mdi-play text-center">
-                                </i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal -->
-            <div class="modal fade bd-example-modal-lg" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
-                    <div class="modal-content home-modal">
-                        <div class="modal-header border-0">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="col-lg-8 text-white text-center">
+                            <h1 class="home-title">We help to grow your business</h1>
+                            <p class="pt-3 home-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt natus explicabo quos magnam doloribus temporibus dolorem in sit numquam obcaecati pariatur modi ducimus est vero, cumque expedita. Quam, ipsam ipsum.</p>
+                            <div class="text-center subscribe-form mt-5">
+                                <form action="#">
+                                    <input type="text" placeholder="Email">
+                                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                                </form>
+                            </div>
                         </div>
-                        <video id="VisaChipCardVideo" class="video-box" controls>
-                            <source src="ttps://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                            <!-- Browser does not support <video> tag -->
-                        </video>
                     </div>
                 </div>
             </div>
@@ -108,12 +98,77 @@
             <div class="row mt-4">
                 <div class="col-lg-4 mt-3">
                     <div class="services-box text-center hover-effect">
-                        <i class="pe-7s-diamon text-primary"></i>
+                        <i class="pe-7s-diamond text-primary"></i>
+                        <h4 class="pt-3">Digital Design 1</h4>
+                        <p class="pt-3 text-muted"> This is the placeholder for text that will be part of the content of the cards</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="services-box text-center hover-effect">
+                        <i class="pe-7s-diamond text-primary"></i>
+                        <h4 class="pt-3">Digital Design 2</h4>
+                        <p class="pt-3 text-muted"> This is the placeholder for text that will be part of the content of the cards</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="services-box text-center hover-effect">
+                        <i class="pe-7s-diamond text-primary"></i>
+                        <h4 class="pt-3">Digital Design 3</h4>
+                        <p class="pt-3 text-muted"> This is the placeholder for text that will be part of the content of the cards</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="services-box text-center hover-effect">
+                        <i class="pe-7s-diamond text-primary"></i>
+                        <h4 class="pt-3">Digital Design 4</h4>
+                        <p class="pt-3 text-muted"> This is the placeholder for text that will be part of the content of the cards</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="services-box text-center hover-effect">
+                        <i class="pe-7s-diamond text-primary"></i>
+                        <h4 class="pt-3">Digital Design 5</h4>
+                        <p class="pt-3 text-muted"> This is the placeholder for text that will be part of the content of the cards</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="services-box text-center hover-effect">
+                        <i class="pe-7s-diamond text-primary"></i>
+                        <h4 class="pt-3">Digital Design 6</h4>
+                        <p class="pt-3 text-muted"> This is the placeholder for text that will be part of the content of the cards</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- End Services -->
+
+    <!-- Start About -->
+    <section class="section bg-light" id="features">
+        <div class="container">
+            <div class="row vertical-content">
+                <div class="col-lg-5">
+                    <div class="features-box">
+                        <h3>Studio created for modern small and medium businesses</h3>
+                        <p class="text-muted web-desc">Here is a small description of the services we offer worldwide</p>
+                        <ul class="text-muted list-unstyled mt-4 features-item-list">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary mt-4 waves-effect waves-light">Learn more<i class="mdi mdi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="features-img features-right text-end">
+                        <img src="images/calendar.svg" alt="business calendar" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
     
 </body>
 </html>
